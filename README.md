@@ -1,2 +1,1 @@
-# 1Eg2techPython
 
