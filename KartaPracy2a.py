@@ -48,7 +48,8 @@
 # c = int(input())
 # if a+b>c and b+c>a and a+c>b:
 #     print("TAK, trojkat powstanie")
-# if a**2 + b**2 == c**2 or b**2 + c**2 == a**2 or c**2 + a**2 == b**2 : print("prostokatny")
-#     elif a**2 + b**2 < c**2 or b**2 + c**2 < a**2 or c**2 + a**2 < b**2 : print("rozwartokatny")
-#     elif a**2 + b**2 > c**2 or b**2 + c**2 > a**2 or c**2 + a**2 > b**2 : print("ostrokatny")
-#   else : print("NIE, trojkat nie powstanie")
+# if a**2 + b**2 == c**2 or b**2 + c**2 == a**2 or c**2 + a**2 == b**2: print("prostokatny")
+#     elif a**2 + b**2 > c**2 or b**2 + c**2 > a**2 or c**2 + a**2 > b**2: print("ostrokatny")
+#     elif a**2 + b**2 < c**2 or b**2 + c**2 < a**2 or c**2 + a**2 < b**2: print("rozwartokatny")
+# else:
+#     print("NIE, trojkat nie powstanie")
