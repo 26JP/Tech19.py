@@ -8,8 +8,8 @@
 # from math import sqrt
 # a = float(input())
 # g = float(input())
-# if (a + g) / 2 > sqrt(a * g) : print("TAK srednia artmetyczna jest wieksza od srednie geometrycznej")
-# else : print("NIE, srednia artmetyczna nie jest wieksza od sredniej geometrycznej")
+# if (a + g) / 2 > sqrt(a * g) : print("TAK srednia arytmetyczna jest wieksza od srednie geometrycznej")
+# else : print("NIE, srednia arytmetyczna nie jest wieksza od sredniej geometrycznej")
 
 #zad3
 # k = int(input())
