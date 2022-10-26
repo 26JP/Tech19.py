@@ -22,7 +22,34 @@
 #     print("-"*i, end="")
 
 #PRE-Tabliczka Mnożenia
-for i in range(1,11):
-  for j in range(1,11):
-   print(i*j, end="\t")
+# for i in range(1,11):
+#   for j in range(1,11):
+#    print(i*j, end="\t")
+#   print()
+
+# *
+# **
+# ***
+# ****
+# *****
+
+# *****
+# ****
+# ***
+# **
+# *
+
+#PRE NA 2 PETLE
+n = int(input())
+for i in range(n):
+  for j in range(i+1):
+    print("*", end="")
+  print()
+
+print()
+print()
+
+for i in range(n):
+  for j in range(n-i):
+    print("*", end="")
   print()
