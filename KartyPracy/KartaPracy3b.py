@@ -29,19 +29,17 @@ for i in range(0,n):
 print(suma)
 
 #zad 6
-suma = 0
 k = int(input())
-for i in range(1,k):
-  if i%2 == 0:
-    suma+=i
+suma = 0
+for i in range(0,k*2+1,2):
+  suma = suma + i
 print(suma)
 
 #zad 7
-suma=0
-m = int(input())
-for i in range(1, m):
-    if i%2==1 and i>9 and 1<100:
-        suma=suma+i
+k = int(input())
+suma = 0
+for i in range(11,k*2+11,2):
+  suma = suma + i
 print(suma)
 
 
