@@ -36,36 +36,33 @@ for i in range(0,k*2+1,2):
 print(suma)
 
 #zad 7
-k = int(input())
+m = int(input())
 suma = 0
-for i in range(11,k*2+11,2):
+for i in range(11,m*2+11,2):
   suma = suma + i
 print(suma)
 
-
 #zad 8
-W0 = int(input())
-L = int(input())
+W0 = float(input())
+L = float(input())
 WX = 0
 suma = W0
-for i in range(0, L * 12):
-    WX = suma * 0.06 * (1/12)
-    suma = suma + WX
-print(round(suma))
+Lata = L*12
+while Lata > 0:
+  WX = suma * 0.06 * (1/12)
+  suma = suma + WX
+  Lata -= 1
+print(round(suma,3))
 
 #zad 9
-from math import sqrt
 a = int(input())
-b = 21
-suma = 0 
-for i in range(0, a+1):
-    for o in range(0, i, b):
-        suma = suma + o
-        o = o + 100
-print(f"Suma to: {suma}")
+suma = 0
+for i in range(21, 21+(a*100)+1,100):
+  suma = suma + i
+print(suma)
 
 #zad 10
 from math import sqrt
 for i in range(1,1001):
-  if i%10 ==sqrt(i) or i%100 == sqrt(i) or i%1000 == sqrt(i):
+  if i%10 ==sqrt(i) or i%100 ==sqrt(i):
     print(i)
