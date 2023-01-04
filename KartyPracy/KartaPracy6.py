@@ -2,7 +2,7 @@
 ilosc = 0
 for i in range(10,100):
   jed = int(i % 10)
-  dz = int(i // 10)
+  dz = int(i / 10)
   if dz > jed * 2:
     ilosc += 1
 print(ilosc)
