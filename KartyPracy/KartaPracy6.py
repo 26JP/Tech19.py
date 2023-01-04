@@ -66,7 +66,7 @@ print(f"suma n elemntow wynosi: {suma} ")
 from math import fabs
 n = int(input("podaj ile powtorzen ma miec ciag:"))
 iloczyn = 1
-rytm = 1
+rytm = 2
 for i in range(2, n+2):
   rytm *= 2
   if i % 2 == 0:
