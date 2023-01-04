@@ -12,8 +12,8 @@ ilosc = 0
 suma = 0
 for i in range(100,1000):
   jed = i % 10
-  dz = (i % 100)//10
-  set = i // 100
+  dz = (i % 100)/10
+  set = i / 100
   if set > dz + jed:
     suma += i
     ilosc += 1
